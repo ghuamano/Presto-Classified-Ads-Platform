@@ -1,0 +1,547 @@
+:root {
+    /* Colori reutilizables */
+    /*
+    --primary-color: #ff6f61;
+    --secondary-color: #81d4fa;
+    --accent-color: #ffe082;
+    --dark-bg: #1a1a2e;
+    --light-bg: #f5f5f5;
+    --text-dark: #333;
+    --text-light: #fff;
+    */
+
+    /* Fuentes */
+    /*--font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;*/
+
+    /* paleta di colori 2 */
+    /*
+    --primary-color: #ff9999;
+    --secondary-color: #a3dffa;
+    --accent-color: #fff3b0;
+    --dark-bg: #2b3a55;
+    --light-bg: #f9f9f9;
+    --text-dark: #4a4a4a;
+    --text-light: #ffffff;
+    */
+
+    /* Fuentes
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    */
+
+    --font-primary: "Bebas Neue", sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+
+    /* paleta di colori 3 */
+    /*
+    Paleta "Neon Pastel"
+    Ragionamento:
+- Tendenza: I toni pastello con un tocco neon sono in crescita nei siti web moderni (es. startup e piattaforme creative). Combinano energia con delicatezza.
+- Perché: Il rosa neon pastello (#ff85a1) è vibrante ma non opprimente, perfetto per pulsanti e titoli. Il turchese (#85e0e0) apporta freschezza e modernità, mentre il giallo pallido (#f9f7d9) dona calore. Lo sfondo scuro (#2d3047) e chiaro (#f7f9fc) creano un contrasto elegante e leggibile.
+        --primary-color: #ff85a1;
+        --secondary-color: #85e0e0;
+        --accent-color: #f9f7d9;
+        --dark-bg: #2d3047;
+        --light-bg: #f7f9fc;
+        --text-dark: #3c3f58;
+        --text-light: #ffffff;
+    */
+
+    /* paleta di colori 4 */
+
+
+    /* Paleta "Eco Minimal"
+    Ragionamento:
+- Tendenza: Ispirata al design sostenibile e minimalista, popolare nei marchi eco-friendly e nei siti di lifestyle.
+- Perché: Il verde menta (#a8d5ba) trasmette calma e natura, ideale per un sito affidabile. La terracotta (#f4a261) aggiunge un tocco caldo e terroso, mentre il beige (#f5e8c7) ammorbidisce la palette. Il verde scuro (#3a5447) e l'avorio (#fafaf0) rafforzano l'estetica naturale e moderna.
+ */
+    --primary-color: #a8d5ba;
+    --secondary-color: #f4a261;
+    --accent-color: #f5e8c7;
+    --dark-bg: #3a5447;
+    --light-bg: #fafaf0;
+    --text-dark: #4a574f;
+    --text-light: #ffffff;
+
+
+    /* paleta di colori 5 */
+
+    /* Paleta: "Retro Futurista"
+    Ragionamento:
+- Tendenza: Combina la nostalgia retro (colori vivaci) con un tocco futuristico (contrasti puliti), visto in piattaforme tecnologiche e creative.
+- Perché: Il corallo (#ff6b6b) è energico e attraente per azioni chiave. Il turchese (#4ecdc4) evoca un'atmosfera retro-moderna, e il senape (#ffe66d) aggiunge un tocco giocoso. Il blu notte (#1f2a44) e il grigio biancastro (#f5f6f5) bilanciano con un aspetto sofisticato. */
+    /* --primary-color: #ff6b6b;
+    --secondary-color: #4ecdc4;
+    --accent-color: #ffe66d;
+    --dark-bg: #1f2a44;
+    --light-bg: #f5f6f5;
+    --text-dark: #2e2e2e;
+    --text-light: #ffffff; */
+
+
+
+    /* paleta di colori 6 */
+
+    /* Paleta "Luxe Gradient"
+    Ragionamento:
+- Tendenza: Palette di gradienti morbidi con toni lussuosi stanno guadagnando terreno nei siti premium e di moda.
+- Perché: Il rosa polveroso (#d4a5a5) e il blu lavanda (#9bafd9) creano un'armonia elegante e rilassata, perfetta per un marketplace sofisticato. Il pesca (#f5d5cb) apporta un calore sottile. Il viola scuro (#2e294e) e il rosa biancastro (#f9f4f5) danno un tocco di lusso moderno. */
+
+    /* --primary-color: #d4a5a5;
+    --secondary-color: #9bafd9;
+    --accent-color: #f5d5cb;
+    --dark-bg: #2e294e;
+    --light-bg: #f9f4f5;
+    --text-dark: #403d58;
+    --text-light: #ffffff; */
+
+
+    /* paleta di colori 7 */
+    /*
+    Paleta "Bold Harmony"
+    Ragionamento:
+- Tendenza: Colori audaci ma equilibrati, popolari in siti dinamici come piattaforme di commercio e app mobili.
+- Perché: L'arancione pesca (#ffac81) è caldo e attraente senza essere aggressivo. L'azzurro cielo (#7ec8e3) apporta energia e chiarezza. Il crema (#f5f1de) ammorbidisce la palette, mentre il verde-azzurro scuro (#354f52) e il bianco grigiastro (#f8fafc) offrono uno sfondo moderno e pulito.
+
+    --primary-color: #ffac81;
+    --secondary-color: #7ec8e3;
+    --accent-color: #f5f1de;
+    --dark-bg: #354f52;
+    --light-bg: #f8fafc;
+    --text-dark: #3f4e4f;
+    --text-light: #ffffff;
+ */
+}
+
+/* google fonts */
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+}
+
+/* fine google fonts */
+.textColor {
+    color: var(--primary-color);
+}
+.textColor2 {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.badgeColor {
+    background-color: var(--secondary-color);
+    color: var(--dark-bg);
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+/* Navbar */
+.navbar-custom {
+    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--primary-color) 100%);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.drop-menu {
+    color: var(--primary-color);
+    text-decoration: none;
+    /* transform: translateY(-2px); */
+}
+
+.drop-menu:hover {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    transform: scale(1.05);
+}
+
+.btn-nav {
+    background-color: var(--secondary-color);
+    color: var(--dark-bg);
+    padding: 0.6rem 2.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    gap: 0.5rem;
+}
+
+.btn-nav:hover {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    transform: scale(1.05);
+}
+
+
+/* Container principal */
+.main-content {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+/* Estilos reutilizables */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer-custom {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-bg) 100%);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-custom::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+.footer-custom .container {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+}
+
+.footer-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: var(--secondary-color);
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+/* Carrusel */
+.carousel-item {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(152, 137, 121, 0.85);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.btn-custom {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+}
+
+/* style product card */
+.product-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: var(--light-bg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    height: 48px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-text {
+    font-family: var(--font-secondary);
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.card-price {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.btn-card {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 25px;
+    padding: 0.5rem 1.0rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-card:hover {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    transform: scale(1.05);
+}
+
+.form-custom {
+    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--primary-color) 100%);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* immagine di default */
+.default-img{
+    height: 300px;
+    width: 300px;
+}
+
+/* Class email */
+.email-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--light-bg);
+    /* --light-bg */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email-header {
+    color: var(--primary-color);
+    /* --primary-color */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.email-content {
+    background-color: var(--text-light);
+    /* --text-light */
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--text-dark);
+    /* --text-dark */
+}
+
+.email-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.email-content strong {
+    color: var(--secondary-color);
+    /* --secondary-color */
+}
+
+.email-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--secondary-color);
+    /* --secondary-color */
+    font-size: 14px;
+}
+
+
+/* paiginazione */
+
+.pagination .page-item .page-link {
+    color: var(--secondary-color);
+    /* Cambia colore del testo */
+    border-radius: 10px;
+    /* Angoli arrotondati */
+    margin: 0 5px;
+    /* Spazio tra i bottoni */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--secondary-color);
+    /* Colore di sfondo per la pagina attiva */
+    border-color: var(--secondary-color);
+    /* Colore del bordo per la pagina attiva */
+    color: var(--light-bg);
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: var(--primary-color);
+    color: var(--light-bg);
+}
+
+/* fine paginazione */
+
+/* dropdown Bandiere */
+.custom-dropdown {
+    min-width: 65px;
+    /* Ancho mínimo */
+    max-width: 65px;
+    /* Ancho máximo */
+    font-size: 14px;
+    /* Tamaño de fuente */
+    padding: 0px;
+    /* Espaciado */
+}
+
+/* Animazione testo */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.animated-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0px solid var(--accent-color);
+    width: 0;
+    animation: typing 3s steps(30, end) forwards, blink 2s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* preview del caricamento delle immagini nel form */
+.img-preview{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+
+/* form di inserimento file */
+.createInput[type="file"] {
+    display: none;
+}
+
+/* footer delle card */
+.custom-footer {
+    font-family: var(--font-secondary);
+    font-size: 0.85rem;
+    color: var(--text-dark);
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.custom-footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.custom-footer a:hover {
+    color: var(--secondary-color);
+}
